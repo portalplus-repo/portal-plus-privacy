@@ -78,10 +78,6 @@ Hesabınız ve verilerinizle ilgili olarak şu haklara sahipsiniz:
 * **Yerel verileri temizleme:** Uzantıyı kaldırdığınızda cihazınızdaki tüm yerel veriler otomatik silinir.
 * **Verilerinize erişim:** Hesabınıza bağlı verilere uzantı arayüzü üzerinden ulaşabilirsiniz.
 
-## Çocuklar
-
-Uzantı Hattrick'in hedef kitlesi olan yetişkin ve genç oyunculara yöneliktir. Bilerek 13 yaşından küçük çocuklardan veri toplanmaz.
-
 ## İletişim
 
 Bu gizlilik politikasıyla ilgili sorularınızı portalplus.support@gmail.com adresine iletebilirsiniz.
@@ -171,10 +167,6 @@ Regarding your account and your data, you have the following rights:
 * **Leaving a team:** You can leave any team you belong to at any time.
 * **Clearing local data:** Uninstalling the extension automatically deletes all local data on your device.
 * **Access to your data:** You can reach the data linked to your account through the extension interface.
-
-## Children
-
-The extension is aimed at the adult and teenage audience that Hattrick targets. Data is not knowingly collected from children under 13.
 
 ## Contact
 

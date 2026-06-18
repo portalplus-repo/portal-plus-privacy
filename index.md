@@ -2,9 +2,20 @@
 
 Bu gizlilik politikası, Portal+ for Hattrick Portal adlı tarayıcı uzantısının hangi verileri topladığını, bu verileri nasıl kullandığını ve kullanıcı olarak hangi haklara sahip olduğunuzu açıklar. Son güncelleme: 18 Haziran 2026.
 
-## Uzantı Nedir
+## Veri Toplama Kategorileri (Mozilla AMO)
 
-Portal+, hattrickportal.online sitesini kullanan Hattrick oyuncularına yönelik bir tarayıcı uzantısıdır. Koyu tema, tabloları dosya olarak dışa aktarma, oyuncu güncelleme bildirimleri, antrenman hesaplayıcı, sezon takvimi, oyuncu kısa listesi ve ekip işbirliği araçları sunar. Uzantı yalnızca hattrickportal.online adresindeki sayfalarda çalışır.
+Bu uzantı Mozilla'nın tarayıcı eklenti veri sınıflandırmasına göre aşağıdaki kategorilerde veri toplar. Firefox kurulum ekranında bu bilgiler `data_collection_permissions` bildirimiyle kullanıcıya sunulur ve opsiyonel olarak devre dışı bırakılabilir.
+
+**Kişisel Veriler (Personal Data — opsiyonel):** Yalnızca ekip işbirliği özellikleri için hesap açtığınızda toplanır. Hesap açmadan uzantının tüm temel özelliklerini kullanabilirsiniz.
+
+* `authenticationInfo`: Kayıt için kullandığınız Hattrick kullanıcı adı veya e-posta adresiniz ve parolanız (Firebase tarafından şifrelenmiş, uzantı tarafından görülmez)
+* `personallyIdentifyingInfo`: Hesap kimliğiniz (UID), üyesi olduğunuz ekiplerin kodları, ekip hatırlatıcılarında paylaştığınız oyuncu numaraları
+* `personalCommunications`: Ekip ile paylaştığınız hatırlatıcı, not, duyuru içerikleriniz ve hatırlatıcı yanıtlarınız
+* `websiteContent`: Hattrick Portal sayfalarından okunan ve ekip ile paylaştığınız oyuncu yetenek değerleri ve kısa liste bilgileri
+
+**Teknik ve Etkileşim Verileri (Technical & Interaction Data):** Toplanmaz. Uzantı hiçbir analitik, telemetri, çökme raporu veya kullanım izleme aracı kullanmaz.
+
+Hesap açtığınızda gizlilik politikasını kabul ettiğiniz tarihi `consentAcceptedAt` alanında denetim amacıyla saklarız. Bu bilgi KVKK/GDPR kapsamında onay kanıtı olarak kullanılır ve sonradan değiştirilemez.
 
 ## Toplanan Veriler
 
@@ -78,6 +89,12 @@ Hesabınız ve verilerinizle ilgili olarak şu haklara sahipsiniz:
 * **Yerel verileri temizleme:** Uzantıyı kaldırdığınızda cihazınızdaki tüm yerel veriler otomatik silinir.
 * **Verilerinize erişim:** Hesabınıza bağlı verilere uzantı arayüzü üzerinden ulaşabilirsiniz.
 
+## Çocuklar
+
+Uzantı, Hattrick'in hedef kitlesi olan yetişkin ve genç oyunculara yöneliktir. Kayıt formu 13 yaşını doldurduğunuza dair açık onay gerektirir; 13 yaşından küçüklerden bilerek kişisel veri toplanmaz.
+
+Eğer bir çocuğun kişisel veri sağladığını düşünüyorsanız portalplussupport@gmail.com adresine bildirin. Bildirimi aldığımızda, COPPA ve GDPR Madde 8 uyumlu şekilde hesabı ve ilişkili tüm verileri derhal sileriz.
+
 ## İletişim
 
 Bu gizlilik politikasıyla ilgili sorularınızı portalplussupport@gmail.com adresine iletebilirsiniz.
@@ -92,13 +109,28 @@ Bu politika gerektiğinde güncellenebilir. Önemli değişiklikler uzantı içi
 
 This privacy policy explains what data the Portal+ for Hattrick Portal browser extension collects, how that data is used, and what rights you have as a user. Last updated: June 18, 2026.
 
+## Data Collection Categories (Mozilla AMO)
+
+This extension collects data in the following categories according to Mozilla's browser add-on data classification. This information is presented to the user in the Firefox installation prompt via the `data_collection_permissions` declaration and can be optionally disabled.
+
+**Personal Data (optional):** Collected only when you create an account for the staff collaboration features. You can use all basic features of the extension without an account.
+
+* `authenticationInfo`: The Hattrick username or email address you use to sign in, and your password (encrypted by Firebase, never seen by the extension)
+* `personallyIdentifyingInfo`: Your account identifier (UID), the codes of staff groups you belong to, and player IDs you share in staff reminders
+* `personalCommunications`: The reminders, notes, and announcement content you share with your staff group, and your responses to reminders
+* `websiteContent`: Player skill values and shortlist information read from Hattrick Portal pages that you share with your staff group
+
+**Technical & Interaction Data:** Not collected. The extension uses no analytics, telemetry, crash reporting, or usage tracking tools.
+
+When you create an account, we store the date you accepted this privacy policy in the `consentAcceptedAt` field for audit purposes. This information is used as proof of consent under GDPR/equivalent regulations and cannot be modified afterward.
+
 ## About the Extension
 
 Portal+ is a browser extension aimed at Hattrick players who use hattrickportal.online. It offers a dark theme, file export of tables, player update notifications, a training calculator, a season calendar, a player shortlist, and staff collaboration tools. The extension runs only on pages at hattrickportal.online.
 
 ## Data We Collect
 
-The extension keeps data in two places: locally on your own device, and in the cloud for staff-related features..
+The extension keeps data in two places: locally on your own device, and in the cloud for staff features.
 
 ### Data Stored on Your Device
 
@@ -120,11 +152,11 @@ When you create an account, the following information is stored through Google F
 
 * The Hattrick username or email address you use to sign in
 * The username on your profile
-* The staff groups you belong to and their group codes
-* Reminders you share with your staff (title, content, dates, player IDs, and training type preferences)
+* The staff groups you belong to and the staff codes
+* Reminders you share with your staff group (title, content, dates, player IDs, and training type preferences)
 * Staff notes (title and content)
 * Staff announcements
-* Shortlist players you share with your staff
+* Shortlist players you share with your staff group
 * Notification records related to your account and your responses to reminders
 
 Your sign-in password is stored in encrypted form by Google Firebase and is never seen by the extension at any point.
@@ -164,9 +196,15 @@ Data kept in the cloud is protected by Firebase security rules and can be access
 Regarding your account and your data, you have the following rights:
 
 * **Account deletion:** You can permanently delete your account through the extension interface. This removes your sign-in record, your profile, and the related staff data.
-* **Leaving a staff group: You can leave any staff group you belong to at any time.
+* **Leaving a staff group:** You can leave any staff group you belong to at any time.
 * **Clearing local data:** Uninstalling the extension automatically deletes all local data on your device.
 * **Access to your data:** You can reach the data linked to your account through the extension interface.
+
+## Children
+
+The extension is aimed at the adult and teenage audience that Hattrick targets. The registration form requires affirmative confirmation that you are at least 13 years old; we do not knowingly collect personal data from children under 13.
+
+If you believe a child has provided personal data, contact portalplussupport@gmail.com. Upon notification, we will promptly delete the account and all related data, in compliance with COPPA and GDPR Article 8.
 
 ## Contact
 

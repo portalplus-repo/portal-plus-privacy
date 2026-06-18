@@ -4,11 +4,11 @@ Bu gizlilik politikası, Portal+ for Hattrick Portal adlı tarayıcı uzantısı
 
 ## Uzantı Nedir
 
-Portal+, hattrickportal.online sitesini kullanan Hattrick oyuncularına yönelik bir tarayıcı uzantısıdır. Koyu tema, tabloları dosya olarak dışa aktarma, oyuncu güncelleme bildirimleri, antrenman hesaplayıcı, sezon takvimi, oyuncu kısa listesi ve takım işbirliği araçları sunar. Uzantı yalnızca hattrickportal.online adresindeki sayfalarda çalışır.
+Portal+, hattrickportal.online sitesini kullanan Hattrick oyuncularına yönelik bir tarayıcı uzantısıdır. Koyu tema, tabloları dosya olarak dışa aktarma, oyuncu güncelleme bildirimleri, antrenman hesaplayıcı, sezon takvimi, oyuncu kısa listesi ve ekip işbirliği araçları sunar. Uzantı yalnızca hattrickportal.online adresindeki sayfalarda çalışır.
 
 ## Toplanan Veriler
 
-Uzantı verileri iki yerde tutar: kendi cihazınızda yerel olarak ve takım özellikleri için bulutta.
+Uzantı verileri iki yerde tutar: kendi cihazınızda yerel olarak ve ekip özellikleri için bulutta.
 
 ### Cihazınızda Saklanan Veriler
 
@@ -24,17 +24,17 @@ Uzantıyı kaldırdığınızda bu verilerin tamamı silinir.
 
 ### Bulutta Saklanan Veriler
 
-Takım işbirliği özelliklerini kullanmak isterseniz bir hesap açmanız gerekir. Bu tamamen isteğe bağlıdır. Hesap açmadan uzantının diğer tüm özelliklerini kullanabilirsiniz.
+Ekip işbirliği özelliklerini kullanmak isterseniz bir hesap açmanız gerekir. Bu tamamen isteğe bağlıdır. Hesap açmadan uzantının diğer tüm özelliklerini kullanabilirsiniz.
 
 Hesap oluşturduğunuzda aşağıdaki bilgiler Google Firebase hizmeti üzerinden saklanır:
 
 * Giriş için kullandığınız Hattrick kullanıcı adınız veya e-posta adresiniz
 * Profilinizdeki kullanıcı adınız
-* Üyesi olduğunuz takımlar ve takım kodları
-* Takımla paylaştığınız hatırlatıcılar (başlık, içerik, tarih, oyuncu numaraları ve antrenman türü tercihleri)
-* Takım notları (başlık ve içerik)
-* Takım duyuruları
-* Takımla paylaştığınız kısa liste oyuncuları
+* Üyesi olduğunuz ekipler ve ekip kodları
+* Ekip ile paylaştığınız hatırlatıcılar (başlık, içerik, tarih, oyuncu numaraları ve antrenman türü tercihleri)
+* Ekip notları (başlık ve içerik)
+* Ekip duyuruları
+* Ekip ile paylaştığınız kısa liste oyuncuları
 * Hesabınıza ilişkin bildirim kayıtları ve hatırlatıcı yanıtlarınız
 
 Giriş parolanız Google Firebase tarafından şifrelenmiş biçimde saklanır ve uzantı tarafından hiçbir aşamada görülmez.
@@ -45,12 +45,12 @@ Toplanan veriler yalnızca uzantının sunduğu özellikleri çalıştırmak iç
 
 ## Üçüncü Taraf Hizmetleri
 
-Uzantı takım özellikleri için yalnızca Google Firebase hizmetlerini kullanır:
+Uzantı ekip özellikleri için yalnızca Google Firebase hizmetlerini kullanır:
 
 * Firebase Authentication, hesap oluşturma ve giriş işlemleri için
-* Cloud Firestore, takım verilerinin saklanması için
+* Cloud Firestore, ekip verilerinin saklanması için
 
-Bu hizmetler Google gizlilik politikasına tabidir. Uzantı, Firebase ile yalnızca kimlik doğrulama ve takım verileri için haberleşir. Analiz, izleme, çerez veya reklam amaçlı başka bir araç kullanılmaz.
+Bu hizmetler Google gizlilik politikasına tabidir. Uzantı, Firebase ile yalnızca kimlik doğrulama ve ekip verileri için haberleşir. Analiz, izleme, çerez veya reklam amaçlı başka bir araç kullanılmaz.
 
 ## Tarayıcı İzinleri
 
@@ -73,14 +73,14 @@ Bulutta tutulan veriler Firebase güvenlik kurallarıyla korunur ve yalnızca ye
 
 Hesabınız ve verilerinizle ilgili olarak şu haklara sahipsiniz:
 
-* **Hesabı silme:** Uzantı arayüzü üzerinden hesabınızı kalıcı olarak silebilirsiniz. Bu işlem giriş kaydınızı, profilinizi ve ilişkili takım verilerinizi kaldırır.
-* **Takımdan ayrılma:** Üyesi olduğunuz bir takımdan istediğiniz zaman ayrılabilirsiniz.
+* **Hesabı silme:** Uzantı arayüzü üzerinden hesabınızı kalıcı olarak silebilirsiniz. Bu işlem giriş kaydınızı, profilinizi ve ilişkili ekip verilerinizi kaldırır.
+* **Ekipten ayrılma:** Üyesi olduğunuz bir ekipten istediğiniz zaman ayrılabilirsiniz.
 * **Yerel verileri temizleme:** Uzantıyı kaldırdığınızda cihazınızdaki tüm yerel veriler otomatik silinir.
 * **Verilerinize erişim:** Hesabınıza bağlı verilere uzantı arayüzü üzerinden ulaşabilirsiniz.
 
 ## İletişim
 
-Bu gizlilik politikasıyla ilgili sorularınızı portalplus.support@gmail.com adresine iletebilirsiniz.
+Bu gizlilik politikasıyla ilgili sorularınızı portalplussupport@gmail.com adresine iletebilirsiniz.
 
 ## Değişiklikler
 
@@ -94,11 +94,11 @@ This privacy policy explains what data the Portal+ for Hattrick Portal browser e
 
 ## About the Extension
 
-Portal+ is a browser extension aimed at Hattrick players who use hattrickportal.online. It offers a dark theme, file export of tables, player update notifications, a training calculator, a season calendar, a player shortlist, and team collaboration tools. The extension runs only on pages at hattrickportal.online.
+Portal+ is a browser extension aimed at Hattrick players who use hattrickportal.online. It offers a dark theme, file export of tables, player update notifications, a training calculator, a season calendar, a player shortlist, and staff collaboration tools. The extension runs only on pages at hattrickportal.online.
 
 ## Data We Collect
 
-The extension keeps data in two places: locally on your own device, and in the cloud for team features.
+The extension keeps data in two places: locally on your own device, and in the cloud for staff-related features..
 
 ### Data Stored on Your Device
 
@@ -114,17 +114,17 @@ When you uninstall the extension, all of this data is deleted.
 
 ### Data Stored in the Cloud
 
-Team collaboration features require you to create an account. This is entirely optional. You can use every other feature of the extension without creating an account.
+Staff collaboration features require you to create an account. This is entirely optional. You can use every other feature of the extension without creating an account.
 
 When you create an account, the following information is stored through Google Firebase:
 
 * The Hattrick username or email address you use to sign in
 * The username on your profile
-* The teams you belong to and the team codes
-* Reminders you share with your team (title, content, dates, player IDs, and training type preferences)
-* Team notes (title and content)
-* Team announcements
-* Shortlist players you share with your team
+* The staff groups you belong to and their group codes
+* Reminders you share with your staff (title, content, dates, player IDs, and training type preferences)
+* Staff notes (title and content)
+* Staff announcements
+* Shortlist players you share with your staff
 * Notification records related to your account and your responses to reminders
 
 Your sign-in password is stored in encrypted form by Google Firebase and is never seen by the extension at any point.
@@ -135,12 +135,12 @@ The collected data is used only to run the features the extension provides. No t
 
 ## Third-Party Services
 
-The extension uses only Google Firebase services for team features:
+The extension uses only Google Firebase services for staff features:
 
 * Firebase Authentication, for account creation and sign-in
-* Cloud Firestore, for storing team data
+* Cloud Firestore, for storing staff data
 
-These services are subject to Google's privacy policy. The extension communicates with Firebase only for authentication and team data. No analytics, tracking, cookie, or advertising tool is used.
+These services are subject to Google's privacy policy. The extension communicates with Firebase only for authentication and staff data. No analytics, tracking, cookie, or advertising tool is used.
 
 ## Browser Permissions
 
@@ -163,14 +163,14 @@ Data kept in the cloud is protected by Firebase security rules and can be access
 
 Regarding your account and your data, you have the following rights:
 
-* **Account deletion:** You can permanently delete your account through the extension interface. This removes your sign-in record, your profile, and the related team data.
-* **Leaving a team:** You can leave any team you belong to at any time.
+* **Account deletion:** You can permanently delete your account through the extension interface. This removes your sign-in record, your profile, and the related staff data.
+* **Leaving a staff group: You can leave any staff group you belong to at any time.
 * **Clearing local data:** Uninstalling the extension automatically deletes all local data on your device.
 * **Access to your data:** You can reach the data linked to your account through the extension interface.
 
 ## Contact
 
-If you have questions about this privacy policy, you can reach us at portalplus.support@gmail.com.
+If you have questions about this privacy policy, you can reach us at portalplussupport@gmail.com.
 
 ## Changes
 

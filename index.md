@@ -1,17 +1,20 @@
 # Gizlilik Politikası
 
-Bu gizlilik politikası, Portal+ for Hattrick Portal adlı tarayıcı uzantısının hangi verileri topladığını, bu verileri nasıl kullandığını ve kullanıcı olarak hangi haklara sahip olduğunuzu açıklar. Son güncelleme: 18 Haziran 2026.
+Bu gizlilik politikası, Portal+ for Hattrick Portal adlı tarayıcı uzantısının hangi verileri topladığını, bu verileri nasıl kullandığını ve kullanıcı olarak hangi haklara sahip olduğunuzu açıklar. Son güncelleme: 1 Temmuz 2026.
 
 ## Veri Toplama Kategorileri (Mozilla AMO)
 
-Bu uzantı Mozilla'nın tarayıcı eklenti veri sınıflandırmasına göre aşağıdaki kategorilerde veri toplar. Firefox kurulum ekranında bu bilgiler `data_collection_permissions` bildirimiyle kullanıcıya sunulur ve opsiyonel olarak devre dışı bırakılabilir.
+Bu uzantı Mozilla'nın tarayıcı eklenti sınıflandırmasına göre aşağıdaki kategorilerde veri toplar. Firefox kurulum ekranında bu bilgiler `data_collection_permissions` bildirimiyle kullanıcıya sunulur. Zorunlu veriler uzantının temel fonksiyonu için gereklidir ve devre dışı bırakılamaz; opsiyonel veriler yalnızca ekip işbirliği özellikleri için hesap açtığınızda toplanır.
 
-**Kişisel Veriler (Personal Data — opsiyonel):** Yalnızca ekip işbirliği özellikleri için hesap açtığınızda toplanır. Hesap açmadan uzantının tüm temel özelliklerini kullanabilirsiniz.
+**Zorunlu Veriler (Required):** Uzantının temel fonksiyonu için gereklidir, devre dışı bırakılamaz.
+
+* `websiteContent`: Hattrick Portal sayfalarından okunan oyuncu yetenek değerleri, kısa liste bilgileri ve takvim verileri. Uzantı bu verileri okuyup işlemeden temel fonksiyonunu (hesaplayıcılar, sütunlar, vurgulamalar) sunamaz.
+
+**Opsiyonel Kişisel Veriler (Personal Data — opsiyonel):** Yalnızca ekip işbirliği özellikleri için hesap açtığınızda toplanır. Hesap açmadan uzantının tüm temel özelliklerini kullanabilirsiniz.
 
 * `authenticationInfo`: Kayıt için kullandığınız Hattrick kullanıcı adı veya e-posta adresiniz ve parolanız (Firebase tarafından şifrelenmiş, uzantı tarafından görülmez)
 * `personallyIdentifyingInfo`: Hesap kimliğiniz (UID), üyesi olduğunuz ekiplerin kodları, ekip hatırlatıcılarında paylaştığınız oyuncu numaraları
 * `personalCommunications`: Ekip ile paylaştığınız hatırlatıcı, not, duyuru içerikleriniz ve hatırlatıcı yanıtlarınız
-* `websiteContent`: Hattrick Portal sayfalarından okunan ve ekip ile paylaştığınız oyuncu yetenek değerleri ve kısa liste bilgileri
 
 **Teknik ve Etkileşim Verileri (Technical & Interaction Data):** Toplanmaz. Uzantı hiçbir analitik, telemetri, çökme raporu veya kullanım izleme aracı kullanmaz.
 
@@ -93,7 +96,7 @@ Hesabınız ve verilerinizle ilgili olarak şu haklara sahipsiniz:
 
 Uzantı, Hattrick'in hedef kitlesi olan yetişkin ve genç oyunculara yöneliktir. Kayıt formu 13 yaşını doldurduğunuza dair açık onay gerektirir; 13 yaşından küçüklerden bilerek kişisel veri toplanmaz.
 
-Eğer bir çocuğun kişisel veri sağladığını düşünüyorsanız portalplussupport@gmail.com adresine bildirin. Bildirimi aldığımızda, COPPA ve GDPR Madde 8 uyumlu şekilde hesabı ve ilişkili tüm verileri derhal sileriz.
+Çocuğun kişisel veri sağladığını düşünüyorsanız portalplussupport@gmail.com adresine bildirin. Bildirimi aldığımızda, COPPA ve GDPR Madde 8 uyumlu şekilde hesabı ve ilişkili tüm verileri derhal sileriz.
 
 ## İletişim
 
@@ -107,18 +110,21 @@ Bu politika gerektiğinde güncellenebilir. Önemli değişiklikler uzantı içi
 
 # Privacy Policy (English)
 
-This privacy policy explains what data the Portal+ for Hattrick Portal browser extension collects, how that data is used, and what rights you have as a user. Last updated: June 18, 2026.
+This privacy policy explains what data the Portal+ for Hattrick Portal browser extension collects, how that data is used, and what rights you have as a user. Last updated: July 1, 2026.
 
 ## Data Collection Categories (Mozilla AMO)
 
-This extension collects data in the following categories according to Mozilla's browser add-on data classification. This information is presented to the user in the Firefox installation prompt via the `data_collection_permissions` declaration and can be optionally disabled.
+This extension collects data in the following categories according to Mozilla's browser add-on classification. This information is presented to the user in the Firefox installation prompt via the `data_collection_permissions` declaration. Required data is necessary for the extension's basic function and cannot be disabled; optional data is collected only when you create an account for staff collaboration features.
 
-**Personal Data (optional):** Collected only when you create an account for the staff collaboration features. You can use all basic features of the extension without an account.
+**Required Data:** Necessary for the extension's basic function, cannot be disabled.
+
+* `websiteContent`: Player skill values, shortlist information, and calendar data read from Hattrick Portal pages. The extension cannot provide its core functionality (calculators, columns, highlights) without reading and processing this data.
+
+**Optional Personal Data:** Collected only when you create an account for the staff collaboration features. You can use all basic features of the extension without an account.
 
 * `authenticationInfo`: The Hattrick username or email address you use to sign in, and your password (encrypted by Firebase, never seen by the extension)
 * `personallyIdentifyingInfo`: Your account identifier (UID), the codes of staff groups you belong to, and player IDs you share in staff reminders
 * `personalCommunications`: The reminders, notes, and announcement content you share with your staff group, and your responses to reminders
-* `websiteContent`: Player skill values and shortlist information read from Hattrick Portal pages that you share with your staff group
 
 **Technical & Interaction Data:** Not collected. The extension uses no analytics, telemetry, crash reporting, or usage tracking tools.
 

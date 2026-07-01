@@ -1,6 +1,6 @@
 # Gizlilik Politikası
 
-Bu gizlilik politikası, Portal+ for Hattrick Portal adlı tarayıcı uzantısının hangi verileri topladığını, bu verileri nasıl kullandığını ve kullanıcı olarak hangi haklara sahip olduğunuzu açıklar. Son güncelleme: 1 Temmuz 2026.
+Bu gizlilik politikası, Portal+ for Hattrick Portal adlı tarayıcı uzantısının hangi verileri topladığını, bu verileri nasıl kullandığını ve kullanıcı olarak hangi haklara sahip olduğunuzu açıklar. Son güncelleme: 2 Temmuz 2026.
 
 ## Veri Toplama Kategorileri (Mozilla AMO)
 
@@ -10,7 +10,7 @@ Bu uzantı Mozilla'nın tarayıcı eklenti sınıflandırmasına göre aşağıd
 
 * `websiteContent`: Hattrick Portal sayfalarından okunan oyuncu yetenek değerleri, kısa liste bilgileri ve takvim verileri. Uzantı bu verileri okuyup işlemeden temel fonksiyonunu (hesaplayıcılar, sütunlar, vurgulamalar) sunamaz.
 
-**Opsiyonel Kişisel Veriler (Personal Data — opsiyonel):** Yalnızca ekip işbirliği özellikleri için hesap açtığınızda toplanır. Hesap açmadan uzantının tüm temel özelliklerini kullanabilirsiniz.
+**Opsiyonel Kişisel Veriler (Personal Data — optional):** Yalnızca ekip işbirliği özellikleri için hesap açtığınızda toplanır. Hesap açmadan uzantının tüm temel özelliklerini kullanabilirsiniz.
 
 * `authenticationInfo`: Kayıt için kullandığınız Hattrick kullanıcı adı veya e-posta adresiniz ve parolanız (Firebase tarafından şifrelenmiş, uzantı tarafından görülmez)
 * `personallyIdentifyingInfo`: Hesap kimliğiniz (UID), üyesi olduğunuz ekiplerin kodları, ekip hatırlatıcılarında paylaştığınız oyuncu numaraları
